@@ -1,0 +1,14 @@
+[Desktop Entry]
+Categories=Network;FileTransfer;P2P;Qt;
+Exec=gnome-terminal -- bash -c "sudo /home/debian/vpn-run-qbittorrent.sh"
+GenericName=BitTorrent client
+Comment=Download and share files over BitTorrent
+Icon=qbittorrent
+MimeType=application/x-bittorrent;x-scheme-handler/magnet;
+Name=qBittorrent VPN
+Terminal=false
+Type=Application
+StartupNotify=false
+StartupWMClass=qbittorrent
+Keywords=bittorrent;torrent;magnet;download;p2p;
+SingleMainWindow=true
