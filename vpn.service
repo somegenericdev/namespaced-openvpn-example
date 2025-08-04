@@ -1,0 +1,11 @@
+[Unit]
+Description=My Long-Running VPN Script
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/debian/vpnprepare.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
